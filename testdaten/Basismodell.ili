@@ -1,0 +1,55 @@
+INTERLIS 2.3;
+
+/** Beschreibung MODEL-Element
+*/
+MODEL Basismodell (de)
+AT "https://agi.so.ch"
+VERSION "2022-11-24"  =
+  IMPORTS GeometryCHLV95_V1;
+
+  /** Topic-ilidoc
+  */
+  TOPIC TopicT1 =
+    OID AS INTERLIS.UUIDOID;
+
+    /** Klasse A
+     */
+    CLASS ClassA =
+      /** Telefonnummer
+       */
+      Attr1 : MANDATORY TEXT*16;
+      /** Hallo Welt.
+       */
+      Attr2 : MANDATORY 0 .. 5000;
+      /** Fubar
+       */
+      Attr3 : MANDATORY GeometryCHLV95_V1.Coord2;
+      /** Heute heisse ich so.
+      */
+      Attr4 : TEXT*16;
+      /** Enum zum Filtern
+      */
+      Attr5 : MANDATORY (rot,blau);
+      UNIQUE Attr1, Attr2;
+    END ClassA;
+
+    /** Klasse B
+    */
+    CLASS ClassB =
+      Attr1 : MANDATORY TEXT*16;
+    END ClassB;
+  
+  END TopicT1;
+
+  TOPIC TopicT2 =
+    OID AS INTERLIS.UUIDOID;
+
+    /** Klasse C
+    */
+    CLASS ClassC =
+      Attr1 : MANDATORY TEXT*16;
+    END ClassC;
+  
+  END TopicT2;
+
+END Basismodell.
