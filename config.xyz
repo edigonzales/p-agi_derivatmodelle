@@ -1,0 +1,19 @@
+[Basismodell]
+name=Derivatmodell
+
+# nur '=', oder grösser/kleiner etc.
+# mehrere Filter möglich? -> Wären das dann AND oder OR?
+[Basismodell.TopicT1.ClassA]
+filter=Attr5,rot
+
+[Basismodell.TopicT1.ClassA.Attr1]
+ignore=true
+
+[Basismodell.TopicT1.ClassA.Attr4]
+name=RenamedAttr4
+
+[Basismodell.TopicT1.ClassB]
+ignore=true
+
+[Basismodell.TopicT2]
+ignore=true
