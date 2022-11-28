@@ -13,18 +13,28 @@ VERSION "2022-11-24"  =
     CLASS ClassA =
        /** Hallo Welt.
         */
+      !!@foo=bar
        Attr2 : MANDATORY 0 .. 5000;
        /** Fubar
         */
        Attr3 : MANDATORY GeometryCHLV95_V1.Coord2;
-       /** Heute heisse ich so.
+       /** Heute heisse ich immer noch gleich.
        */
-       RenamedAttr4 : TEXT*16;
+       Attr4 : TEXT*16;
        /** Enum zum Filtern
        */
        Attr5 : MANDATORY (rot,blau);
      END ClassA;
 
   END TopicT1;
+
+  TOPIC TopicT3 =
+    OID AS INTERLIS.UUIDOID;
+
+    CLASS ClassD =
+      AttrD1 : MANDATORY TEXT*16;
+    END ClassD;
+
+  END TopicT3;
 
 END Derivatmodell.

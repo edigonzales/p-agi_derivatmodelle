@@ -44,5 +44,16 @@
         <Attr1>sometext</Attr1>
       </Basismodell.TopicT2.ClassC>
     </Basismodell.TopicT2>
+
+    <Basismodell.TopicT3 BID="b3">
+      <Basismodell.TopicT3.ClassD TID="B50FED43-347C-4C21-943B-FBBD9AE68E3A">
+        <AttrD1>foo</AttrD1>
+      </Basismodell.TopicT3.ClassD>
+      <Basismodell.TopicT3.ClassE TID="AC605084-CD4A-4F7C-9312-95A8849B8AB5">
+        <AttrE1>bar</AttrE1>
+        <rD REF="B50FED43-347C-4C21-943B-FBBD9AE68E3A"></rD>
+      </Basismodell.TopicT3.ClassE>
+    </Basismodell.TopicT3>
+
   </DATASECTION>
 </TRANSFER>

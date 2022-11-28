@@ -18,7 +18,7 @@
             <C2>1229439.569</C2>
           </COORD>
         </Attr3>
-        <RenamedAttr4>fubar</RenamedAttr4>
+        <Attr4>fubar</Attr4>
         <Attr5>rot</Attr5>
       </Derivatmodell.TopicT1.ClassA>
     </Derivatmodell.TopicT1>
