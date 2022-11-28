@@ -1,1 +1,3 @@
 # p-agi_derivatmodelle
+
+- Filterfunktionen: Schwierig, da Bedürfnisse schnell wachsen. "gleich", "ungleich", "grösser/kleiner als"...
