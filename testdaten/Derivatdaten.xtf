@@ -9,7 +9,7 @@
     </MODELS>
   </HEADERSECTION>
   <DATASECTION>
-    <Derivatmodell.TopicT1 BID="b1">
+    <Derivatmodell.TopicT1 BID="bneu1">
       <Derivatmodell.TopicT1.ClassA TID="6d3158bf-fff6-4df6-98a5-088dfcdb514c">
         <Attr2>4999</Attr2>
         <Attr3>
@@ -22,5 +22,15 @@
         <Attr5>rot</Attr5>
       </Derivatmodell.TopicT1.ClassA>
     </Derivatmodell.TopicT1>
+
+    <Derivatmodell.TopicT3 BID="bneu3">
+      <Derivatmodell.TopicT3.ClassD TID="B50FED43-347C-4C21-943B-FBBD9AE68E3A">
+        <AttrD1>foo</AttrD1>
+      </Derivatmodell.TopicT3.ClassD>
+      <Derivatmodell.TopicT3.ClassE TID="AC605084-CD4A-4F7C-9312-95A8849B8AB5">
+        <AttrE1>bar</AttrE1>
+      </Derivatmodell.TopicT3.ClassE>
+    </Derivatmodell.TopicT3>
+
   </DATASECTION>
 </TRANSFER>
