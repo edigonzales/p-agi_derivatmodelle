@@ -69,6 +69,19 @@ VERSION "2022-11-24"  =
       rE -- {0..*} ClassE;
     END D_E_Assoz;
 
+    CLASS ClassF =
+      AttrF1 : MANDATORY TEXT*16;
+    END ClassF;
+
+    CLASS ClassG =
+      AttrG1 : MANDATORY TEXT*16;
+    END ClassG;
+
+    ASSOCIATION F_G_Assoz =
+      rF -- {0..*} ClassF;
+      rG -- {0..*} ClassG;
+    END F_G_Assoz;
+
   END TopicT3;
 
 END Basismodell.

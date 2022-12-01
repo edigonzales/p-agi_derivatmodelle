@@ -39,6 +39,14 @@ VERSION "2022-11-24"  =
       AttrE1 : MANDATORY TEXT*16;
     END ClassE;
 
+    CLASS ClassF =
+      AttrF1 : MANDATORY TEXT*16;
+    END ClassF;
+
+    CLASS ClassG =
+      AttrG1 : MANDATORY TEXT*16;
+    END ClassG;
+
   END TopicT3;
 
 END Derivatmodell.

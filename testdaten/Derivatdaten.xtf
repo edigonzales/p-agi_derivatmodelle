@@ -30,6 +30,13 @@
       <Derivatmodell.TopicT3.ClassE TID="AC605084-CD4A-4F7C-9312-95A8849B8AB5">
         <AttrE1>bar</AttrE1>
       </Derivatmodell.TopicT3.ClassE>
+
+      <Derivatmodell.TopicT3.ClassF TID="38EF6488-FDE8-479D-9A28-4364757A1625">
+        <AttrF1>foo</AttrF1>
+      </Derivatmodell.TopicT3.ClassF>
+      <Derivatmodell.TopicT3.ClassG TID="8ECA474A-2FFD-43B4-9E5D-FC9F5C68D0CF">
+        <AttrG1>bar</AttrG1>
+      </Derivatmodell.TopicT3.ClassG>
     </Derivatmodell.TopicT3>
 
   </DATASECTION>

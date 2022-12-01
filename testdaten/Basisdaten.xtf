@@ -53,6 +53,17 @@
         <AttrE1>bar</AttrE1>
         <rD REF="B50FED43-347C-4C21-943B-FBBD9AE68E3A"></rD>
       </Basismodell.TopicT3.ClassE>
+
+      <Basismodell.TopicT3.ClassF TID="38EF6488-FDE8-479D-9A28-4364757A1625">
+        <AttrF1>foo</AttrF1>
+      </Basismodell.TopicT3.ClassF>
+      <Basismodell.TopicT3.ClassG TID="8ECA474A-2FFD-43B4-9E5D-FC9F5C68D0CF">
+        <AttrG1>bar</AttrG1>
+      </Basismodell.TopicT3.ClassG>
+      <Basismodell.TopicT3.F_G_Assoz>
+        <rF REF="38EF6488-FDE8-479D-9A28-4364757A1625"></rF>
+        <rG REF="8ECA474A-2FFD-43B4-9E5D-FC9F5C68D0CF"></rG>
+      </Basismodell.TopicT3.F_G_Assoz>
     </Basismodell.TopicT3>
 
   </DATASECTION>
